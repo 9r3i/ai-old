@@ -45,7 +45,7 @@
         + Windows:
           - Download at: https://windows.php.net/
           - Create path to it
-            So PHP can easily access by cmd.
+            So PHP can easily accessed by cmd.
           
         + Linux
           $ sudo apt install php-cli php-common php-zip
@@ -69,6 +69,7 @@
     o URLs
       
       - https://luthfie.com/files/ai/setup.ai
+      - https://raw.githubusercontent.com/9r3i/ai/master/setup.ai
       - https://9r3i.github.io/ai/setup.ai
       - https://luthfie.bitbucket.io/ai/setup.ai
       
