@@ -1,0 +1,128 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+                       HOW TO INSTALL AI
+
+              Authored by 9r3i a.k.a. Abu Ayyub
+                        July 11th 2019
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  
+  Introduction
+  
+    o What is AI?
+      
+      - Do you think AI is Artificial Intelegent?
+      - AI stands for Ayyub-Isa
+        - Two of my incredible sons
+        - Love them so much, both of them
+      - AI is personal system, based on console.
+        - Built to made communication safer.
+        - No spying shit! hehehe...
+      
+    o Functionality of AI
+      
+      - Manage communication encrypted.
+      - Keep your data safe.
+      - More safe indication planted to it.
+    
+  
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+  Requirement and Preparation
+
+    o System OS: 
+      
+      - Linux
+      - Windows 7 or greater
+      - Termux (Android 5 or greater)
+
+    o PHP 
+      
+      - Version 5.6.x or higher
+        --> Recommended version is 7.3.x
+      
+      - How to install PHP?
+        + Windows:
+          - Download at: https://windows.php.net/
+          - Create path to it
+            So PHP can easily access by cmd.
+          
+        + Linux
+          $ sudo apt install php-cli php-common php-zip
+          
+        + Termux
+          $ pkg install php
+
+    o Disk space: Estimated to 3 MB tops
+
+    o Empty directory path
+      
+      - Windows: C:\9r3i\ai
+      - Linux  : $HOME/9r3i/ai
+      - Termux : /sdcard/9r3i/ai
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+  Installation
+  
+    o URLs
+      
+      - https://luthfie.com/files/ai/setup.ai
+      - https://9r3i.github.io/ai/setup.ai
+      - https://luthfie.bitbucket.io/ai/setup.ai
+      
+      
+      * Note:
+        + Change url in code if failed to get script.
+      
+    
+    o Simply copy this code and paste in console:
+      
+      - CMD or TERMUX or TERMINAL
+    
+  -------CODE START-------
+
+  php -a 
+    $url='https://luthfie.com/files/ai/setup.ai';
+    $file='install.ai';
+    $get=@file_get_contents($url.'?r='.mt_rand());
+    $put=@file_put_contents($file,gzinflate($get));
+    $push="\r\n\r\n\t";
+    $out=["\r\n\r\n"];
+    if(!$put){
+      @unlink($file);
+      $out[]="Status: [ERROR] Failed to get script.";
+      $out[]="Type  : exit";
+    }else{
+      $out[]="Status: [OK] Ready to execute script.";
+      $out[]="Type  : exit";
+      $out[]="Then  : php install.ai";
+    }$out[]="\r\n\r\n";
+    echo implode($push,$out);
+
+
+  -------CODE END-------
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+   
+   User Guide
+   
+   Once the installation is successful, restart computer.
+   Open console CMD, Teminal or Termux, and type:
+
+     $ AI HELP
+   
+   Everything is in there.
+   Enjoy!
+   
+   
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+                Copyright (c) 2012-2019, 9r3i
+                   https://github.com/9r3i
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
