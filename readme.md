@@ -20,4 +20,9 @@ Read more about installation in file:
 # License
 Private license, included inside the crypto package.
 
+# Contribution
+This time, this AI console system is private function only.
+
+But anybody can add their own code inside extension and library directory. While basic code of this system is PHP, AI will scan all php files in those directories and load-up as AI executing arguments.
+
 
