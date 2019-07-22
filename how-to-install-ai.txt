@@ -70,8 +70,6 @@
       
       - https://luthfie.com/files/ai/setup.ai
       - https://raw.githubusercontent.com/9r3i/ai/master/setup.ai
-      - https://9r3i.github.io/ai/setup.ai
-      - https://luthfie.bitbucket.io/ai/setup.ai
       
       
       * Note:
