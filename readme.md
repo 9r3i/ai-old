@@ -1,4 +1,3 @@
-AI (Ayyub-Isa) --> NOT Artificial Intelegent.
 
 [![Author](https://img.shields.io/badge/author-9r3i-lightgrey.svg)](https://github.com/9r3i)
 [![License](https://img.shields.io/badge/license-Private_License-green.svg)](https://github.com/9r3i/ai/blob/master/license.txt)
