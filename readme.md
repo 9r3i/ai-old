@@ -8,7 +8,7 @@
 
 
 # What is AI?
-- Do you think AI is Artificial Intelegent? NOPE!
+- Do you think AI is Artificial Intelligence? NOPE!
 - AI stands for Ayyub-Isa, Two of my incredible sons, Love them so much, both of them
 - AI is personal system, based on console. Built to made communication safer. No spying shit! hehehe...
 
