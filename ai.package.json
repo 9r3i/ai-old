@@ -1,0 +1,954 @@
+{
+    "cepack": {
+        "name": "cepack",
+        "version": "1.19.7.16",
+        "contains": [
+            "ceHelper.ai",
+            "ceChronoCross.ai",
+            "ceFinalFantasyIX.ai",
+            "ceMonsterRancher2.ai",
+            "ceHarvestMoonBTN.ai",
+            "ceGranTurismo2.ai",
+            "ceAlundra2.ai",
+            "ceHMLOH.ai",
+            "ceTable.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "type": "lib",
+        "requires": [],
+        "file": "lib\/cepack.1.19.7.16.zip.crypto",
+        "size": 45280,
+        "xsize": 116265
+    },
+    "drivemapping": {
+        "name": "drivemapping",
+        "version": "1.1.1",
+        "contains": [
+            "driveMapping.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "type": "lib",
+        "requires": [],
+        "file": "lib\/drivemapping.1.1.1.zip.crypto",
+        "size": 2912,
+        "xsize": 5393
+    },
+    "ext.bj": {
+        "name": "bj",
+        "version": "0.8.0",
+        "type": "ext",
+        "contains": [
+            "bj.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [
+            "lpclient"
+        ],
+        "file": "ext\/bj.0.8.0.zip.crypto",
+        "size": 2448,
+        "xsize": 4503
+    },
+    "ext.ce": {
+        "name": "ce",
+        "version": "1.2.0",
+        "type": "ext",
+        "contains": [
+            "ce.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [
+            "cepack"
+        ],
+        "file": "ext\/ce.1.2.0.zip.crypto",
+        "size": 4944,
+        "xsize": 13483
+    },
+    "ext.compile": {
+        "name": "compile",
+        "version": "1.6.3",
+        "type": "ext",
+        "contains": [
+            "compile.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [
+            "drivemapping",
+            "rawcompilerhtml",
+            "mserver"
+        ],
+        "file": "ext\/compile.1.6.3.zip.crypto",
+        "size": 1712,
+        "xsize": 2520
+    },
+    "ext.ct": {
+        "name": "ct",
+        "version": "1.1.0",
+        "type": "ext",
+        "contains": [
+            "ct.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [
+            "cepack"
+        ],
+        "file": "ext\/ct.1.1.0.zip.crypto",
+        "size": 1632,
+        "xsize": 2667
+    },
+    "ext.direnc": {
+        "name": "direnc",
+        "version": "1.3.1",
+        "type": "ext",
+        "contains": [
+            "direnc.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [
+            "ext.oem"
+        ],
+        "file": "ext\/direnc.1.3.1.zip.crypto",
+        "size": 1856,
+        "xsize": 3595
+    },
+    "ext.drive": {
+        "name": "drive",
+        "version": "1.1.5",
+        "type": "ext",
+        "contains": [
+            "drive.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [
+            "drivemapping"
+        ],
+        "file": "ext\/drive.1.1.5.zip.crypto",
+        "size": 2832,
+        "xsize": 5090
+    },
+    "ext.eot": {
+        "name": "eot",
+        "version": "1.0.0",
+        "type": "ext",
+        "contains": [
+            "eot.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [],
+        "file": "ext\/eot.1.0.0.zip.crypto",
+        "size": 1104,
+        "xsize": 1420
+    },
+    "ext.ext": {
+        "name": "ext",
+        "version": "1.0.1",
+        "type": "ext",
+        "contains": [
+            "ext.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [],
+        "file": "ext\/ext.1.0.1.zip.crypto",
+        "size": 2176,
+        "xsize": 4044
+    },
+    "ext.grlogin": {
+        "name": "grlogin",
+        "version": "1.0.0",
+        "type": "ext",
+        "contains": [
+            "grlogin.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [
+            "grlg"
+        ],
+        "file": "ext\/grlogin.1.0.0.zip.crypto",
+        "size": 1216,
+        "xsize": 1732
+    },
+    "ext.gz": {
+        "name": "gz",
+        "version": "1.2.0",
+        "type": "ext",
+        "contains": [
+            "gz.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [],
+        "file": "ext\/gz.1.2.0.zip.crypto",
+        "size": 2064,
+        "xsize": 3815
+    },
+    "ext.hmloh": {
+        "name": "hmloh",
+        "version": "1.8.0",
+        "type": "ext",
+        "contains": [
+            "hmloh.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [
+            "cepack",
+            "hmlohdb"
+        ],
+        "file": "ext\/hmloh.1.8.0.zip.crypto",
+        "size": 7760,
+        "xsize": 24110
+    },
+    "ext.image": {
+        "name": "image",
+        "version": "1.3.3",
+        "type": "ext",
+        "contains": [
+            "image.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [],
+        "file": "ext\/image.1.3.3.zip.crypto",
+        "size": 5728,
+        "xsize": 13386
+    },
+    "ext.imagebam": {
+        "name": "imagebam",
+        "version": "1.1.0",
+        "type": "ext",
+        "contains": [
+            "imagebam.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [
+            "lpclient"
+        ],
+        "file": "ext\/imagebam.1.1.0.zip.crypto",
+        "size": 2720,
+        "xsize": 5021
+    },
+    "ext.imf": {
+        "name": "imf",
+        "version": "2.2.1",
+        "type": "ext",
+        "contains": [
+            "imf.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [
+            "lpclient"
+        ],
+        "file": "ext\/imf.2.2.1.zip.crypto",
+        "size": 9360,
+        "xsize": 26616
+    },
+    "ext.kdbc": {
+        "name": "kdbc",
+        "version": "2.4.4.4",
+        "type": "ext",
+        "contains": [
+            "kdbc.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [
+            "kdb"
+        ],
+        "file": "ext\/kdbc.2.4.4.4.zip.crypto",
+        "size": 3776,
+        "xsize": 8369
+    },
+    "ext.kwh": {
+        "name": "kwh",
+        "version": "1.2.1",
+        "type": "ext",
+        "contains": [
+            "kwh.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [],
+        "file": "ext\/kwh.1.2.1.zip.crypto",
+        "size": 3168,
+        "xsize": 5960
+    },
+    "ext.ldbc": {
+        "name": "ldbc",
+        "version": "1.0.8.6",
+        "type": "ext",
+        "contains": [
+            "ldbc.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [
+            "ldb"
+        ],
+        "file": "ext\/ldbc.1.0.8.6.zip.crypto",
+        "size": 4224,
+        "xsize": 9161
+    },
+    "ext.me": {
+        "name": "me",
+        "version": "1.13.7219",
+        "type": "ext",
+        "contains": [
+            "me.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [
+            "rcd"
+        ],
+        "file": "ext\/me.1.13.7219.zip.crypto",
+        "size": 8080,
+        "xsize": 19527
+    },
+    "ext.msc": {
+        "name": "msc",
+        "version": "1.5.2",
+        "type": "ext",
+        "contains": [
+            "msc.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [],
+        "file": "ext\/msc.1.5.2.zip.crypto",
+        "size": 5264,
+        "xsize": 12880
+    },
+    "ext.n8ro": {
+        "name": "n8ro",
+        "version": "1.1.0",
+        "type": "ext",
+        "contains": [
+            "n8ro.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [
+            "ldb"
+        ],
+        "file": "ext\/n8ro.1.1.0.zip.crypto",
+        "size": 2928,
+        "xsize": 5469
+    },
+    "ext.oem": {
+        "name": "oem",
+        "version": "1.2.0",
+        "type": "ext",
+        "contains": [
+            "oem.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [],
+        "file": "ext\/oem.1.2.0.zip.crypto",
+        "size": 3328,
+        "xsize": 7328
+    },
+    "ext.scc": {
+        "name": "scc",
+        "version": "1.2.0",
+        "type": "ext",
+        "contains": [
+            "scc.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [
+            "sseclient"
+        ],
+        "file": "ext\/scc.1.2.0.zip.crypto",
+        "size": 4112,
+        "xsize": 10660
+    },
+    "ext.sdbc": {
+        "name": "sdbc",
+        "version": "2.0.3.5",
+        "type": "ext",
+        "contains": [
+            "sdbc.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [
+            "sdb"
+        ],
+        "file": "ext\/sdbc.2.0.3.5.zip.crypto",
+        "size": 3728,
+        "xsize": 7937
+    },
+    "ext.search": {
+        "name": "search",
+        "version": "1.2.0",
+        "type": "ext",
+        "contains": [
+            "search.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [],
+        "file": "ext\/search.1.2.0.zip.crypto",
+        "size": 2880,
+        "xsize": 5755
+    },
+    "ext.server": {
+        "name": "server",
+        "version": "1.5.0",
+        "type": "ext",
+        "contains": [
+            "server.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [
+            "mserver"
+        ],
+        "file": "ext\/server.1.5.0.zip.crypto",
+        "size": 4368,
+        "xsize": 12291
+    },
+    "ext.subtitle": {
+        "name": "subtitle",
+        "version": "1.1.1",
+        "type": "ext",
+        "contains": [
+            "subtitle.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [
+            "srt"
+        ],
+        "file": "ext\/subtitle.1.1.1.zip.crypto",
+        "size": 2752,
+        "xsize": 5437
+    },
+    "ext.termux": {
+        "name": "termux",
+        "version": "1.1.1",
+        "type": "ext",
+        "contains": [
+            "termux.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [],
+        "file": "ext\/termux.1.1.1.zip.crypto",
+        "size": 2336,
+        "xsize": 3987
+    },
+    "ext.vc": {
+        "name": "vc",
+        "version": "1.2.3",
+        "type": "ext",
+        "contains": [
+            "vc.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [],
+        "file": "ext\/vc.1.2.3.zip.crypto",
+        "size": 5296,
+        "xsize": 14147
+    },
+    "ext.vcf": {
+        "name": "vcf",
+        "version": "1.0.0",
+        "type": "ext",
+        "contains": [
+            "vcf.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [],
+        "file": "ext\/vcf.1.0.0.zip.crypto",
+        "size": 2352,
+        "xsize": 4572
+    },
+    "ext.vco": {
+        "name": "vco",
+        "version": "2.0.6",
+        "type": "ext",
+        "contains": [
+            "vco.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [
+            "vcoserver"
+        ],
+        "file": "ext\/vco.2.0.6.zip.crypto",
+        "size": 10608,
+        "xsize": 34784
+    },
+    "ext.vg": {
+        "name": "vg",
+        "version": "1.4.2",
+        "type": "ext",
+        "contains": [
+            "vg.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [
+            "lpclient"
+        ],
+        "file": "ext\/vg.1.4.2.zip.crypto",
+        "size": 5728,
+        "xsize": 12963
+    },
+    "ext.wcc": {
+        "name": "wcc",
+        "version": "1.4.0",
+        "type": "ext",
+        "contains": [
+            "wcc.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [
+            "wsclient"
+        ],
+        "file": "ext\/wcc.1.4.0.zip.crypto",
+        "size": 4592,
+        "xsize": 13172
+    },
+    "ext.win": {
+        "name": "win",
+        "version": "1.1.0",
+        "type": "ext",
+        "contains": [
+            "win.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [],
+        "file": "ext\/win.1.1.0.zip.crypto",
+        "size": 4976,
+        "xsize": 11120
+    },
+    "ext.zip": {
+        "name": "zip",
+        "version": "1.0.2",
+        "type": "ext",
+        "contains": [
+            "zip.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [],
+        "file": "ext\/zip.1.0.2.zip.crypto",
+        "size": 2432,
+        "xsize": 4280
+    },
+    "grlg": {
+        "name": "grlg",
+        "version": "1.0.1",
+        "contains": [
+            "grLG.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "type": "lib",
+        "requires": [],
+        "file": "lib\/grlg.1.0.1.zip.crypto",
+        "size": 1536,
+        "xsize": 2137
+    },
+    "hmlohdb": {
+        "name": "hmlohdb",
+        "version": "1.2.0",
+        "contains": [
+            "hmlohDB.ai",
+            "hmloh\/basic.ini",
+            "hmloh\/cheat.ct",
+            "hmloh\/db.ini"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "type": "lib",
+        "requires": [],
+        "file": "lib\/hmlohdb.1.2.0.zip.crypto",
+        "size": 40144,
+        "xsize": 201073
+    },
+    "kdb": {
+        "name": "kdb",
+        "version": "2.5.2",
+        "contains": [
+            "kdb.ai",
+            "kdbTable.ai",
+            "kdbServer.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "type": "lib",
+        "requires": [],
+        "file": "lib\/kdb.2.5.2.zip.crypto",
+        "size": 23904,
+        "xsize": 90519
+    },
+    "ldb": {
+        "name": "ldb",
+        "version": "1.0.8",
+        "contains": [
+            "ldb.ai",
+            "ldbServer.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "type": "lib",
+        "requires": [],
+        "file": "lib\/ldb.1.0.8.zip.crypto",
+        "size": 27056,
+        "xsize": 110414
+    },
+    "lpclient": {
+        "name": "lpclient",
+        "version": "2.0.0",
+        "contains": [
+            "lpClient.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "type": "lib",
+        "requires": [],
+        "file": "lib\/lpclient.2.0.0.zip.crypto",
+        "size": 912,
+        "xsize": 1077
+    },
+    "mserver": {
+        "name": "mserver",
+        "version": "1.8.0.0",
+        "contains": [
+            "mserver.ai",
+            "mserverIcon.ai",
+            "mserverSocket.ai",
+            "mserver\/mserver.ico",
+            "mserver\/mserver.ini",
+            "mserver\/static.html"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "type": "lib",
+        "requires": [],
+        "file": "lib\/mserver.1.8.0.0.zip.crypto",
+        "size": 99392,
+        "xsize": 274044
+    },
+    "nextdata": {
+        "name": "nextdata",
+        "version": "1.2.0",
+        "contains": [
+            "nextData.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "type": "lib",
+        "requires": [],
+        "file": "lib\/nextdata.1.2.0.zip.crypto",
+        "size": 2688,
+        "xsize": 5317
+    },
+    "rawcompilerhtml": {
+        "name": "rawcompilerhtml",
+        "version": "1.1.1",
+        "contains": [
+            "rawCompilerHTML.ai",
+            "rawCompilerHTML\/rawCompilerHTML.html",
+            "rawCompilerHTML\/rawCompilerHTML.ini",
+            "rawCompilerHTML\/rawCompilerHTML.js"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "type": "lib",
+        "requires": [],
+        "file": "lib\/rawcompilerhtml.1.1.1.zip.crypto",
+        "size": 5056,
+        "xsize": 11126
+    },
+    "rcd": {
+        "name": "rcd",
+        "version": "1.0.0",
+        "contains": [
+            "rcd.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "type": "lib",
+        "requires": [],
+        "file": "lib\/rcd.1.0.0.zip.crypto",
+        "size": 1200,
+        "xsize": 1528
+    },
+    "sdb": {
+        "name": "sdb",
+        "version": "2.0.6",
+        "contains": [
+            "sdb.ai",
+            "sdbServer.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "type": "lib",
+        "requires": [],
+        "file": "lib\/sdb.2.0.6.zip.crypto",
+        "size": 14112,
+        "xsize": 55478
+    },
+    "srt": {
+        "name": "srt",
+        "version": "1.1.0",
+        "contains": [
+            "srt.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "type": "lib",
+        "requires": [],
+        "file": "lib\/srt.1.1.0.zip.crypto",
+        "size": 2176,
+        "xsize": 4424
+    },
+    "sseclient": {
+        "name": "sseclient",
+        "version": "1.2.2",
+        "contains": [
+            "sseClient.ai",
+            "sseConsoleClient.ai",
+            "sseData.ai",
+            "sseEvent.ai",
+            "sseRequest.ai",
+            "sseConsoleClientExt\/chat.php",
+            "sseConsoleClientExt\/ssecc.php",
+            "sseConsoleClientExt\/xp-pop-up.wav"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "type": "lib",
+        "requires": [],
+        "file": "lib\/sseclient.1.2.2.zip.crypto",
+        "size": 16624,
+        "xsize": 41205
+    },
+    "wsclient": {
+        "name": "wsclient",
+        "version": "2.1.2",
+        "contains": [
+            "wsClient.ai",
+            "wsClientExts.ai",
+            "wsClientExts\/wscc.php",
+            "wsClientExts\/chat.php"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "type": "lib",
+        "requires": [],
+        "file": "lib\/wsclient.2.1.2.zip.crypto",
+        "size": 5952,
+        "xsize": 12668
+    },
+    "ext.htlog": {
+        "name": "htlog",
+        "version": "1.3.0",
+        "type": "ext",
+        "contains": [
+            "htlog.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [],
+        "file": "ext\/htlog.1.3.0.zip.crypto",
+        "size": 2560,
+        "xsize": 4178
+    },
+    "silsilahdata": {
+        "name": "silsilahdata",
+        "version": "1.2.0",
+        "contains": [
+            "silsilahData.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "type": "lib",
+        "requires": [],
+        "file": "lib\/silsilahdata.1.2.0.zip.crypto",
+        "size": 3104,
+        "xsize": 7981
+    },
+    "ext.silsilah": {
+        "name": "silsilah",
+        "version": "1.0.0",
+        "type": "ext",
+        "contains": [
+            "silsilah.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "requires": [
+            "silsilahdata"
+        ],
+        "file": "ext\/silsilah.1.0.0.zip.crypto",
+        "size": 4880,
+        "xsize": 13585
+    },
+    "vcoserver": {
+        "name": "vcoserver",
+        "version": "1.4.0",
+        "contains": [
+            "vcos\/vcos.cob.php"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "type": "lib",
+        "requires": [],
+        "file": "lib\/vcoserver.1.4.0.zip.crypto",
+        "size": 6144,
+        "xsize": 32437
+    },
+    "gallerylight": {
+        "name": "gallerylight",
+        "version": "1.0.4",
+        "contains": [
+            "galleryLight.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "type": "lib",
+        "requires": [],
+        "file": "lib\/gallerylight.1.0.4.zip.crypto",
+        "size": 2576,
+        "xsize": 5001
+    },
+    "cmsapi": {
+        "name": "cmsapi",
+        "version": "1.3.1",
+        "contains": [
+            "cmsAPI.ai"
+        ],
+        "requires": [
+            "kdb"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "type": "lib",
+        "file": "lib\/cmsapi.1.3.1.zip.crypto",
+        "size": 7552,
+        "xsize": 20003
+    },
+    "kdbapi": {
+        "name": "kdbapi",
+        "version": "1.2.1",
+        "contains": [
+            "kdbAPI.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "type": "lib",
+        "requires": [],
+        "file": "lib\/kdbapi.1.2.1.zip.crypto",
+        "size": 2672,
+        "xsize": 5967
+    },
+    "ldbclient": {
+        "name": "ldbclient",
+        "version": "1.0.7.13",
+        "contains": [
+            "ldbClient.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "type": "lib",
+        "requires": [],
+        "file": "lib\/ldbclient.1.0.7.13.zip.crypto",
+        "size": 2528,
+        "xsize": 5654
+    },
+    "dload": {
+        "name": "dload",
+        "version": "1.1.0",
+        "contains": [
+            "dload.ai"
+        ],
+        "authors": [
+            "9r3i"
+        ],
+        "type": "lib",
+        "requires": [],
+        "file": "lib\/dload.1.1.0.zip.crypto",
+        "size": 3280,
+        "xsize": 6122
+    }
+}
