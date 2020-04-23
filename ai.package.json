@@ -205,7 +205,7 @@
     },
     "ext.hmloh": {
         "name": "hmloh",
-        "version": "1.8.1",
+        "version": "1.8.2",
         "type": "ext",
         "contains": [
             "hmloh.ai"
@@ -217,9 +217,9 @@
             "cepack",
             "hmlohdb"
         ],
-        "file": "ext\/hmloh.1.8.1.zip.crypto",
-        "size": 7712,
-        "xsize": 24110
+        "file": "ext\/hmloh.1.8.2.zip.crypto",
+        "size": 7776,
+        "xsize": 24318
     },
     "ext.image": {
         "name": "image",
@@ -609,21 +609,24 @@
     },
     "hmlohdb": {
         "name": "hmlohdb",
-        "version": "1.2.0",
+        "version": "1.2.1",
         "contains": [
             "hmlohDB.ai",
             "hmloh\/basic.ini",
             "hmloh\/cheat.ct",
-            "hmloh\/db.ini"
+            "hmloh\/db.ini",
+            "hmloh\/items.json",
+            "hmloh\/items-mapping.json",
+            "hmloh\/items-name.json"
         ],
         "authors": [
             "9r3i"
         ],
         "type": "lib",
         "requires": [],
-        "file": "lib\/hmlohdb.1.2.0.zip.crypto",
-        "size": 40144,
-        "xsize": 201073
+        "file": "lib\/hmlohdb.1.2.1.zip.crypto",
+        "size": 50288,
+        "xsize": 272308
     },
     "kdb": {
         "name": "kdb",
