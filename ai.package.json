@@ -321,7 +321,7 @@
     },
     "ext.me": {
         "name": "me",
-        "version": "1.15.8100",
+        "version": "1.16.8117",
         "type": "ext",
         "contains": [
             "me.ai"
@@ -332,9 +332,9 @@
         "requires": [
             "rcd"
         ],
-        "file": "ext\/me.1.15.8100.zip.crypto",
-        "size": 8400,
-        "xsize": 20075
+        "file": "ext\/me.1.16.8117.zip.crypto",
+        "size": 8784,
+        "xsize": 21211
     },
     "ext.msc": {
         "name": "msc",
